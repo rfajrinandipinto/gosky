@@ -1,0 +1,51 @@
+.featured-section {
+  margin-top: 125px;
+}
+
+.featured-title {
+  margin-bottom: 30px;
+  color: #00aced;
+}
+
+.featured-section .card {
+  height: 400px;
+}
+
+.featured-section .card .btn {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 100px;
+}
+
+.featured-section .card .card-title {
+  font-size: 28px;
+}
+
+.featured-section .card .card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+}
+
+.featured-card-1 {
+  background-image: url(../../../../public/img/place/bukittinggi.png);
+  background-position: center;
+}
+
+.featured-card-2 {
+  background-image: url(../../../../public/img/place/jogjakarta.png);
+  background-position: center;
+}
+
+.featured-card-3 {
+  background-image: url(../../../../public/img/place/jakarta.png);
+  background-position: center;
+}
+
+.featured-card-4 {
+  background-image: url(../../../../public/img/place/bali.png);
+  background-position: center;
+}

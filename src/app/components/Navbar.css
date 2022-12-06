@@ -1,0 +1,13 @@
+.navbar-brand img {
+  height: 35px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-nav .nav-item .nav-link svg {
+  color: #00aced;
+}

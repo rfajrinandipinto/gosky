@@ -1,0 +1,38 @@
+.resultTopCard-component {
+  padding-inline: 250px;
+}
+
+.resultTopCard-component .container {
+  position: relative;
+  height: 100%;
+}
+
+.resultTopCard-component .container .card {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  transform: translate(0%, -50%);
+  width: 100%;
+  background-color: #00aced;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 32px;
+  color: white;
+}
+
+.resultTopCard-component .container .card .card-title {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resultTopCard-component .container .card .card-text {
+  font-size: 20px;
+}
+
+.resultTopCard-component .container .card .btn {
+  background-color: white;
+  color: #00aced;
+  font-weight: 500;
+  padding: 16px 40px;
+}

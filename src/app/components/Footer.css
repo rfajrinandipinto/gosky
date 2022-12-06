@@ -1,0 +1,29 @@
+.footer-section {
+  background-color: white;
+  border-top: 1px solid #c4c4c4;
+  margin-top: 45px;
+  padding-block: 75px;
+  padding-inline: 150px;
+}
+
+.footer-brand img {
+  height: 45px;
+}
+
+.footer-section h3 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.footer-section .col p {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #c4c4c4;
+}
+
+.col-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

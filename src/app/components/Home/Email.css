@@ -1,0 +1,47 @@
+.email-section {
+  margin-top: 50px;
+  padding-inline: 150px;
+}
+
+.email-section .container h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+.email-section .card {
+  margin-top: 45px;
+  background-color: #00aced;
+  padding: 24px;
+}
+
+.email-section .card .card-body {
+  display: flex;
+  align-items: center;
+}
+
+.email-section .card .card-body .email-input {
+  flex-grow: 1;
+  margin-right: 32px;
+}
+
+.email-section .card .card-body .email-input input {
+  height: 100%;
+  padding: 16px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.email-section .card .card-body ::placeholder {
+  color: white;
+}
+
+.email-section .card .btn {
+  background-color: #ffffff;
+  color: #00aced;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 12px 60px;
+}

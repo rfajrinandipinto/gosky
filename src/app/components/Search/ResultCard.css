@@ -1,0 +1,87 @@
+.resultCard-component {
+  margin-bottom: 75px;
+}
+
+.resultCard-component .card {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.resultCard-component .card .card-body {
+  padding: 40px;
+}
+
+.resultCard-component .card .card-body .col-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resultCard-component .card .card-body .col-3.card-logo {
+  align-items: start;
+}
+
+.resultCard-component .card .card-body .col-3.card-action {
+  align-items: flex-end;
+}
+
+.resultCard-component .card .card-body .col-3 img {
+  height: 50px;
+}
+
+.resultCard-component .card .card-body .col-6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resultCard-component .card .card-body .col-6 p {
+  margin-bottom: 10px;
+}
+
+.resultCard-component .card .card-body .col-6 .card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.resultCard-component .card .card-body .col-6 .card-time {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.resultCard-component .card .card-body .col-6 .card-date {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.resultCard-component .card .card-body .col-6 .divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultCard-component .card .card-body .col-6 .divider svg {
+  font-size: 48px;
+}
+
+.resultCard-component .card .card-body .col-6 .divider .flight-duration {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.resultCard-component .card .card-body .col-3 .card-price {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.resultCard-component .card .card-body .col-3 .btn {
+  padding-inline: 48px;
+  margin-block: 10px;
+}
+
+.resultCard-component .card .card-body .col-3 .card-availability {
+  font-weight: 500;
+  font-size: 20px;
+}

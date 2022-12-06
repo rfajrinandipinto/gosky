@@ -1,0 +1,11 @@
+.header-section .container-fluid {
+  padding: 0;
+}
+
+.header-section .container-fluid .header-img {
+  max-width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-image: url(/public/img/calendar.svg);
+}
